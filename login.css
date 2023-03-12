@@ -103,7 +103,7 @@ h1 {
   display: block;
   position: absolute;
   left: 50%;
-  top: 40%;
+  top: 60%;
   height: 2.5rem;
   padding-top: 1.3rem;
   width: 15rem;
@@ -125,6 +125,16 @@ h1 {
 .split.right .button:hover {
   background-color: var(--right-button-hover-color);
   border-color: var(--right-button-hover-color);
+}
+
+.login{
+  font-size: 4rem;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translateX(-50%);
+  white-space: nowrap;
 }
 
 .container {
