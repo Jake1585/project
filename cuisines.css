@@ -26,11 +26,11 @@ body {
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  list-style-type: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  background-color: #333 !important;
 }
 
 li {
@@ -38,21 +38,41 @@ li {
 }
 
 li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+  display: block !important;
+  color: white !important;
+  text-align: center !important;
+  padding: 14px 16px !important;
+  text-decoration: none !important;
+}
+
+.search-box {
+  display: inline-block;
+  height: 25px;
+  margin-top: 7px;
+  border-radius: 20px;
 }
 
 /* Change the link color to #111 (black) on hover */
 li a:hover {
-  background-color: #111;
+  background-color: #111 !important;
 }
 
 h5 {
   color: black;
 
+}
+
+h4 {
+  color: black;
+  margin-left: 20px;
+}
+
+label {
+  color: black;
+}
+
+form {
+  margin-left: 20px;
 }
 
 :root {
@@ -122,9 +142,9 @@ h4 {
 }
 
 .cuisines-header {
-  width: 100%;
   float: none;
   margin: 15px;
+  margin-right: 11px;
   color: black;
 }
 
@@ -133,6 +153,9 @@ h4 {
   float: none;
 }
 
+.mexican-footer {
+  color: black;
+}
 
 .cuisines-description {
   width: 100%;
@@ -146,6 +169,10 @@ h4 {
   float: right;
   margin: 10px;
   color: black;
+}
+
+.checked {
+  color: yellow;
 }
 
 /* Individual Recipe Webpages */
@@ -194,6 +221,22 @@ h4 {
   margin-left: 8px;
 }
 
+.nutrition {
+  float: right;
+  margin-top: 50px;
+  margin-right: 950px;
+}
+
+.row {
+  float: right !important;
+}
+
+.row2 {
+  padding-top: 500px;
+  padding-right: 165px;
+  text-align: center;
+}
+
 /* Home page CSS */
 
 .home-block {
@@ -239,6 +282,7 @@ h4 {
   border: #111;
   color: black;
   padding: 15px 32px;
+  padding-top: 1rem;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -246,6 +290,7 @@ h4 {
   margin: 4px 2px;
   cursor: pointer;
 }
+
 
 .btn {
   border: #111;
@@ -357,4 +402,31 @@ h4 {
 
 .window:nth-child(3) {
   background: blue;
+}
+
+
+/* Surprise Me CSS */
+
+.button3 {
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  height: 4rem;
+  padding-top: 2rem;
+  width: 15rem;
+  text-align: center;
+  color: white;
+  border: black solid 0.2rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+  transform: translateX(-50%);
+  background-color: black;
+  border-radius: 25px;
+}
+
+.button2 {
+  cursor: pointer;
 }
